@@ -1,2 +1,2 @@
-## Hello there,
-### It's my first repository. I want to present you my litte projects and analyses :)
+## Hello world! 👋
+#### Welcome to my first repository page, where I would like to present you my little projects and analyses 😄
