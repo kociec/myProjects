@@ -1,4 +1,4 @@
-import pandas as pd                                          # 1.remove the Scal_input.txt file headerso that the first number is the parcel number
+import pandas as pd                                          # 1.remove the Scal_input.txt file header so that the first number is the parcel number
 
 path =  r'F:\DataScience\Data\GEO\Scal_input.txt'            # 2. check the file path
 
