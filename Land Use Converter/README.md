@@ -4,7 +4,7 @@
 #### The program allows you to quickly summed land uses of the same category within a given land parcel from the Scal_input.txt file. Example usage in file ConversionExample.png, where land uses of classes RIIIa and RIIIb are summed.
 
 ```diff
- #pandas
+ + Modules used: Pandas
 
 ```
 
