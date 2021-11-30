@@ -5,4 +5,4 @@
 
 #### Data source : https://www.kaggle.com/unsdsn/world-happiness
 
-### type: Data Analyse & Machine Learning
+### project type: Data Analyse & Machine Learning
