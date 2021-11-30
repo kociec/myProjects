@@ -3,4 +3,4 @@
 ### Description:
 #### The script reads a list of points with X and Y coordinates (coords_input.txt) and then after the user selects a starting point, the script moves to the next point according to the "go to the nearest point" rule. The script writes the sorted list of points to coords_output.txt file.
 
-## project type:   solving problems in work
+### project type:   solving problems in work
