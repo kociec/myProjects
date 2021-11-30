@@ -6,7 +6,6 @@ start = time.time()                          # start time measuring
 
 with open(r'F:\DataScience\Data\coords_input.txt') as file:     # opening file with raw data
     content = file.read()
-    file.close()
 
 regExpession = re.compile(r'.* .* .*')       # creating the regular expression pattern and finding all points
 result = regExpession.findall(content)
@@ -51,7 +50,6 @@ while data:                                                   # loop which calcu
 with open(r'F:\DataScience\Data\coords_output.txt','w') as file:                                              # saving sorted sequence of points to new file
     for point in resultList:
         file.write(point[0] + ' ' + str(point[1]) + ' ' + str(point[2]) + '\n')
-    file.close()
 
 stop = time.time()                                            # stop time measuring
 
