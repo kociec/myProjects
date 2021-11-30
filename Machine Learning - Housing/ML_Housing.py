@@ -6,7 +6,6 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import r2_score
 
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge
