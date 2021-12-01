@@ -1,4 +1,4 @@
-## Project: "Machine Learning: Housing "
+## Project: "Housing"
 
 ### Description:
 #### The project performed machine learning on real estate prices data in Boston. 
