@@ -18,7 +18,8 @@ for a in file.readlines():
         y = int(y.replace('\n',''))
         nmb.append(x)
         area.append(y)
-    
+file.close()   
+
 nr = []
 use = []
                                                              # 3. check  DataFrame "data" for unusual land usages to be added on line 26 if neccesery
