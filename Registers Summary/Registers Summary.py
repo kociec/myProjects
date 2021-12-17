@@ -6,11 +6,12 @@ import time
 startTime = time.time()                # start pomiaru czasu wykonania skryptu
 inWork = True                          # wybór scieżek: True - praca, False - dom
 
+print('   >>>>> OBLICZENIA W TOKU...  <<<<<')
 #############################################################################
 # wczytanie rejestru przed scaleniem
 
 if inWork == True:
-    path =  r'D:\temp\DAT\przed_scaleniem_raw.txt'
+    path =  r'.\przed_scaleniem_raw.txt'
 else:
     path =  r'F:\DataScience\Data\rejestr\przed_scaleniem_raw.txt'  
 
@@ -75,7 +76,7 @@ data_przed.columns = ['jedn_przed','nr_przed','pow_przed','pkt_przed']
 # wczytanie rejestru po scaleniu
 
 if inWork == True:
-    path =  r'D:\temp\DAT\po_scaleniu_raw.txt'
+    path =  r'.\po_scaleniu_raw.txt'
 else:
     path =  r'F:\DataScience\Data\rejestr\po_scaleniu_raw.txt' 
 
@@ -141,7 +142,7 @@ lp = 1                                                                     # zai
 max_jedn = max(data_przed['jedn_przed'].max(), data_po['jedn_po'].max())   # wyznaczenie najwyższego numeru jednostki rejestrowej (przed i po scaleniu - łącznie)
 
 if inWork == True:
-    path =  r'D:\temp\DAT\OUTPUT.txt'
+    path =  r'.\OUTPUT.txt'
 else:
     path =  r'F:\DataScience\Data\rejestr\OUTPUT.txt'
 
