@@ -18,7 +18,7 @@ for row in result:
     row[2] = float(row[2])
     data.append(row)
 
-chosenPointName = input('Indicate the starting point:  ')     # indicating the first point
+chosenPointName = input('Please indicate the starting point:  ')     # indicating the first point
 
 chosenPointCoords = []                                        # creating empty list for first point coords
 
@@ -54,4 +54,4 @@ with open(r'F:\DataScience\Data\coords_output.txt','w') as file:                
 stop = time.time()                                            # stop time measuring
 
 print('\nTotal distance between all points : ', round(sum(closestDistances),2), ' meters')      # printing main info
-print('Performed at the time : ',round(stop-start,2),'seconds')
+print('Performed at the time : ',round(stop-start,2),'seconds!!!')
